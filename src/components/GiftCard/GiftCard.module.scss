@@ -1,0 +1,65 @@
+@import "../../styles/utils/index";
+
+.giftCard {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 50px 60px;
+  position: relative;
+  background: $color-white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+
+  &__background {
+    &--1 {
+      width: 20%;
+      top: 20%;
+      position: absolute;
+      right: 0;
+      top: -40px;
+    }
+
+    &--2 {
+      width: 20%;
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+    }
+  }
+
+  &__img--paytm {
+    width: 100px;
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  &__textWrapper {
+    max-width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: $text-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    > div > h2 {
+      font-size: 40px;
+    }
+
+    > div > h2:nth-of-type(2) {
+      margin-left: 55px;
+    }
+
+    div:nth-of-type(2){
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+
+      span:last-of-type {
+        font-size: 100px;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "../../styles/utils/index";
+
+.mobileInputWrapper {
+  margin-top: 30px;
+  font-size: 14px;
+
+  input {
+    height: 44px;
+    border: 0.1rem solid $color-solitude;
+    outline: none;
+    padding: 6px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    background: $color-white-smoke;
+  }
+
+  button {
+    display: block;
+    margin: 40px auto;
+    background: $color-blue;
+    border-radius: 100px;
+    border: none;
+    padding: 20px 60px;
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1.45em;
+    outline: none;
+    font-weight: bold;
+
+    &:disabled {
+      background: $color-gray;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+}
