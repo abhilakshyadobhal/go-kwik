@@ -1,0 +1,19 @@
+.faqRow {
+  display: flex;
+  align-items: flex-end;
+  text-align: start;
+  margin: 0 auto 40px;
+  max-width: 70%;
+
+  img {
+    width: 30px;
+  }
+  .answerWrapper {
+    margin-left: 20px;
+
+    span {
+      display: inline-block;
+      margin-top: 8px;
+    }
+  }
+}
