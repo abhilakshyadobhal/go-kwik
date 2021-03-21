@@ -18,6 +18,6 @@ export const faqs: faqType[] = [
     {
         question: "What if I cancel the order?",
         answer: "The voucher will not delivered if you cancel the order.",
-        imgSrc: "https://lh3.googleusercontent.com/proxy/uTKm19dsibTG4PRjioaahVZq7kuRAcK1mI_Xo01a_mHNPjgJfW1BeIVX0lfNuUQghbz4PALh0MtgC2zIZLzMzFv1q_bsP2qKve_o-op3tWHQwxHiHnCviA2wBp4GhOzQ_T5XJ-4G0d6fjgQnNw"
+        imgSrc: "https://www.flaticon.com/svg/vstatic/svg/753/753345.svg?token=exp=1616307607~hmac=a0e74ddff420721468d249b7a74574a2"
     },
 ]
